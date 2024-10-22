@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.header{
+    width: 100%;background-color: black;
+    height: 100px;display: flex;flex-direction: row;justify-content: space-between;
+}
+.logo{
+    width: 20%;color: rgb(215, 250, 16);display: none;
+    height: 90px;position: relative;top: 50%;left: 65%;font-size: 40px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.navB{
+    width: 60%;position: relative;top: 50%;left: 40%;
+}
+.navB ul{
+   display: flex;justify-content: space-around;list-style: none;font-size: 25px;font-weight: 600;color: white;
+}
+main{
+    width: 100%;
+    height: 690px;
+}
+main .imagecontainer{
+    width: 100%;
+    height: 100%;
+}
+.imagecontainer img{
+    width: 100%;background-size: cover;
+    height: 100%;filter: blur(5px);overflow: 0;
+}
+.timer{
+    width: 50%;display: flex;justify-content: center;align-items: center;
+    height: 12rem;position: absolute;bottom: 40%;left: 25%;flex-direction: column;
+}
+.timer .timecountdown{
+    font-size: 100px;color: white;font-weight: 900;
+}
+.timer .timecountdown1{
+    font-size: 30px;font-weight: bolder;color: white;
+}
+.fontlow{
+    width: 50%;height: 8rem;position: relative;bottom: 90%;left: 25%;
+    font-size: 80px;display: flex;justify-content: center;align-items: center;color: white;
+}
+.timert{
+    display: flex;flex-direction: row;justify-content: space-around;width: 100%;font-size: 90px;color: white;
+}
+.timertext{
+    display: flex;flex-direction: row;justify-content: space-around;width: 100%;font-size: 30px;color: white;
+}
+
+@media (max-width:895px) {
+    .logo{
+        display: block;
+    }
+    .navB{
+        display: none;
+    }
+    .fontlow{
+        font-size: 40px;
+    }
+    .timert{
+        font-size: 40px;
+    }
+    .timertext{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:600px) {
+    .logo{
+        display: block;
+    }
+    .navB{
+        display: none;
+    }
+    .fontlow{
+        font-size: 30px;
+    }
+    .timert{
+        font-size: 30px;
+    }
+    .timertext{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:400px) {
+    .logo{
+        display: block;
+    }
+    .navB{
+        display: none;
+    }
+    .fontlow{
+        font-size: 20px;
+    }
+    .timert{
+        font-size: 25px;
+    }
+    .timertext{
+        font-size: 10px;
+    }
+}

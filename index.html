@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Manager</title>
+    <link rel="stylesheet" href="./event.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <p>Menu</p>
+        </div>
+        <nav class="navB">
+            <ul>
+                <li style="color: red;">Events</li>
+                <li style="color: aqua;">Tickets</li>
+                <li style="color: yellow;">About Me</li>
+                <li style="color: rgb(12, 235, 12);">Contact Me</li>
+            </ul>
+        </nav>
+        
+    </div>
+    <main>
+        <div class="imagecontainer">
+            <img src="./assets/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="image">
+        </div>
+        <div class="fontlow" >
+            <p>Event Start in</p>
+        </div>
+        <div class="timer">
+            <div class="timert">
+                <p id="days"></p>
+                <p id="hours"></p>
+                <p id="minutes"></p>
+                <p id="seconds"></p>
+            </div>
+            <div class="timertext">
+                <p>Days</p>
+                <p>Hours</p>
+                <p style="position: relative;left: 2%;">Minutes</p>
+                <p style="position: relative;left: 1%;">Seconds</p>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./event.js"></script>
+</body>
+</html>
