@@ -38,26 +38,29 @@ main .imagecontainer{
 }
 .timer{
     width: 50%;display: flex;justify-content: center;align-items: center;
-    height: 12rem;position: absolute;bottom: 40%;left: 25%;flex-direction: column;
+    height: 18rem;position: absolute;bottom: 25%;left: 25%;flex-direction: column;
 }
-.timer .timecountdown{
-    font-size: 100px;color: white;font-weight: 900;
+.timer .pcon{
+    font-size: 30px;color: white;font-family: Arial, Helvetica, sans-serif;position: relative;bottom: 5%;
 }
-.timer .timecountdown1{
-    font-size: 30px;font-weight: bolder;color: white;
+.timer .putemail{
+    width: 250px;height: 20px;background-color: rgb(212, 209, 209);padding: 5px;margin-bottom: 3px;border: 0;
+}
+.timer .submit{
+    width: 262px;height: 20px;background-color: yellow;font-size: 17px;font-weight: 600;
 }
 .fontlow{
     width: 50%;height: 8rem;position: relative;bottom: 90%;left: 25%;
     font-size: 50px;display: flex;justify-content: center;align-items: center;color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;flex-direction: column;
 }
 .timert{
     display: flex;flex-direction: row;justify-content: space-around;width: 100%;font-size: 50px;color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;position: relative;bottom: 15%;
 }
 .timertext{
     display: flex;flex-direction: row;justify-content: space-around;width: 100%;font-size: 15px;color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;position: relative;bottom: 15%;
 }
 
 @media (max-width:895px) {
@@ -67,14 +70,29 @@ main .imagecontainer{
     .navB{
         display: none;
     }
+    .timer .pcon{
+        font-size: 20px;color: white;font-family: Arial, Helvetica, sans-serif;position: relative;bottom: 5%;position: relative;top: 70%;
+    }
+    .timer .putemail{
+        width: 200px;height: 20px;background-color: rgb(212, 209, 209);padding: 5px;margin-bottom: 3px;border: 0;position: relative;top: 70%;
+    }
+    .timer .submit{
+        width: 212px;height: 20px;background-color: yellow;font-size: 17px;font-weight: 600;position: relative;top: 70%;
+    }
     .fontlow{
-        font-size: 40px;
+        font-size: 20px;
+    }
+    .fontlow .p1{
+        position: relative;top: 50%;
+    }
+    .fontlow .p2{
+        position: relative;top: 25%;
     }
     .timert{
-        font-size: 40px;
+        font-size: 30px;position: relative;top: 56%;
     }
     .timertext{
-        font-size: 25px;
+        font-size: 25px;position: relative;top: 56%;
     }
 }
 
@@ -85,14 +103,29 @@ main .imagecontainer{
     .navB{
         display: none;
     }
+    .timer .pcon{
+        font-size: 20px;color: white;font-family: Arial, Helvetica, sans-serif;position: relative;bottom: 5%;position: relative;top: 60%;
+    }
+    .timer .putemail{
+        width: 200px;height: 20px;background-color: rgb(212, 209, 209);padding: 5px;margin-bottom: 3px;border: 0;position: relative;top: 60%;
+    }
+    .timer .submit{
+        width: 212px;height: 20px;background-color: yellow;font-size: 17px;font-weight: 600;position: relative;top: 60%;
+    }
     .fontlow{
-        font-size: 30px;
+        font-size: 15px;
+    }
+    .fontlow .p1{
+        position: relative;top: 50%;
+    }
+    .fontlow .p2{
+        position: relative;top: 25%;
     }
     .timert{
-        font-size: 30px;
+        font-size: 30px;position: relative;top: 46%;
     }
     .timertext{
-        font-size: 15px;
+        font-size: 15px;position: relative;top: 46%;
     }
 }
 
@@ -103,13 +136,28 @@ main .imagecontainer{
     .navB{
         display: none;
     }
+    .timer .pcon{
+        font-size: 20px;color: white;font-family: Arial, Helvetica, sans-serif;position: relative;bottom: 5%;position: relative;top: 50%;
+    }
+    .timer .putemail{
+        width: 200px;height: 20px;background-color: rgb(212, 209, 209);padding: 5px;margin-bottom: 3px;border: 0;position: relative;top: 50%;
+    }
+    .timer .submit{
+        width: 212px;height: 20px;background-color: yellow;font-size: 17px;font-weight: 600;position: relative;top: 50%;
+    }
     .fontlow{
-        font-size: 20px;
+        font-size: 10px;
+    }
+    .fontlow .p1{
+        position: relative;top: 50%;
+    }
+    .fontlow .p2{
+        position: relative;top: 25%;
     }
     .timert{
-        font-size: 25px;
+        font-size: 25px;position: relative;top: 40%;
     }
     .timertext{
-        font-size: 10px;
+        font-size: 10px;position: relative;top: 40%;
     }
 }
